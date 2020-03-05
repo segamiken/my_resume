@@ -1,5 +1,5 @@
 <template>
   <div>
-    ここはヘッダーです。
+    ここはヘッダー!
   </div>
 </template>
