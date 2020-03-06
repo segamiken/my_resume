@@ -2,12 +2,10 @@
   <div class="about">
 
     <!-- 題名 -->
-    <transition mode="in-out">
-      <h1>Hi.</h1>
-    </transition>
-    <transition mode="in-out">
-      <h1>Welcome to Ken's Portfolio Site</h1>
-    </transition>
+    <h1>Hi.</h1>
+    <h1>
+      <vue-typer text="Welcome to Ken's Portfolio Site" :repeat='0'></vue-typer>
+    </h1>
     <!-- 題名ここまで -->
 
     <!-- 自己紹介 -->

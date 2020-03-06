@@ -5,8 +5,9 @@
     <h1>Hi.</h1>
     <h1>
       <i class="fas fa-laptop-code"></i>
-      My skills are..
+      <vue-typer text="My Skills are.." :repeat='0'></vue-typer>
     </h1>
+
     <!-- 題名ここまで -->
 
     <!-- スキル -->

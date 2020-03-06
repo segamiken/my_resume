@@ -4,7 +4,7 @@
     <h1>Hi.</h1>
     <h1>
       <i class="fab fa-app-store"></i>
-      My Works are..
+      <vue-typer text="My Works are.." :repeat='0'></vue-typer>
     </h1>
     <!-- タイトルここまで -->
 
@@ -17,7 +17,7 @@
         </a>(Laravelを使用)
       </h2>
       <h3>概要</h3>
-      <p class="work_content_txt">プログラミングのエラーと解決法を検索できるサイトです。</p>
+      <p class="work_content_txt">プログラミングのエラーと解決法を検索できるサイトです。プログラミング教室で働いていた際、社内システムとして作りました。質問対応記録のSpreadSheetから毎日エラー内容と解決法を取得しています。SheetsApiやHerokuのScheduler等を使用しています。</p>
       <img alt="InfraDB logo" src="../assets/infradb.png" class="work_content_img">
     </div>
 
@@ -29,7 +29,7 @@
         </a>(Vue.jsを使用)
       </h2>
       <h3>概要</h3>
-      <p class="work_content_txt">私のポートフォリオ(このページ)です。シンプルで分かりやすさを重視したデザインにしました。</p>
+      <p class="work_content_txt">私のポートフォリオ(このページ)です。シンプルで分かりやすさを重視したデザインにしました。<br>Vue-routerを使ってシンプルなSPAにしました。</p>
       <img alt="portfolio logo" src="../assets/portofolio.png" class="work_content_img">
     </div>
 
@@ -41,7 +41,7 @@
         </a>(Railsを使用)
       </h2>
       <h3>概要</h3>
-      <p class="work_content_txt"></p>
+      <p class="work_content_txt">大学の授業に対する評価と感想を投稿できるサイトです。学部、学科、授業を選択してその授業に評価とコメントができます。</p>
       <img alt="OCU logo" src="../assets/ocu.png" class="work_content_img">
     </div>
 
@@ -53,7 +53,7 @@
         </a>(Rails, JQueryを使用)
       </h2>
       <h3>概要</h3>
-      <p class="work_content_txt"></p>
+      <p class="work_content_txt">基本的な機能が揃ったCDのECサイトです。3人のチームメンバーでGitHubを使用して開発をしました。</p>
       <img alt="Ecsite logo" src="../assets/ecsite.png" class="work_content_img">
     </div>
     <!-- workここまで -->
