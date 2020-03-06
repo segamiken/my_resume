@@ -41,7 +41,7 @@
   </div>
 </template>
 
-<style>
+<style scoped>
   a {
     text-decoration: none;
   }
