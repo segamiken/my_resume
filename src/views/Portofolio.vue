@@ -1,6 +1,0 @@
-<template>
-  <div class="about">
-    <h1>Hi.</h1>
-    <h1>My Works</h1>
-  </div>
-</template>

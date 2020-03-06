@@ -8,7 +8,6 @@
     <transition mode="in-out">
       <h1>Welcome to Ken's Portfolio Site</h1>
     </transition>
-    
     <!-- 題名ここまで -->
 
     <!-- 自己紹介 -->

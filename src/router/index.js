@@ -13,14 +13,14 @@ const routes = [
     component: () => import(/* webpackChunkName: "about" */ '../views/AboutMe.vue')
   },
   {
-    path: '/skill',
-    name: 'skill',
+    path: '/skills',
+    name: 'skills',
     component: () => import('../views/Skill.vue')
   },
   {
-    path: '/portofolio',
-    name: 'portofolio',
-    component: () => import('../views/Portofolio.vue')
+    path: '/works',
+    name: 'works',
+    component: () => import('../views/Work.vue')
   }
     
 ]
