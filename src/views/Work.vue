@@ -84,9 +84,29 @@
 
   .work_content_txt {
     text-align: left;
+    padding: 0 20px;
   }
 
   .work_content_img {
     width: 100%;
+  }
+
+  /* レスポンシブ対応 */
+  @media (max-width: 900px) {
+    .work_content {
+      width: 70%;
+      margin-left: 15%;
+      margin-bottom: 30px;
+      height: ;
+    }
+  }
+
+  @media (max-width: 500px) {
+    .work_content {
+      height: auto;
+    }
+    .work_content_txt {
+      font-size: 14px;
+    }
   }
 </style>

@@ -68,4 +68,10 @@
       height: 530px;
     }
   }
+
+  @media (max-width: 500px) {
+    .skill_content {
+      width: 90%;
+    }
+  }
 </style>
