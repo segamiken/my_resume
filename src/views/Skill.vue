@@ -61,4 +61,11 @@
     padding: 20px;
   }
 
+  /* レスポンシブ対応 */
+  @media (max-width: 1100px) {
+    .skill_content {
+      width: 70%;
+      height: 530px;
+    }
+  }
 </style>
