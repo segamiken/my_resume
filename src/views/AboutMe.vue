@@ -2,8 +2,13 @@
   <div class="about">
 
     <!-- 題名 -->
-    <h1>Hi.</h1>
-    <h1>Welcome to Ken's Portfolio Site</h1>
+    <transition mode="in-out">
+      <h1>Hi.</h1>
+    </transition>
+    <transition mode="in-out">
+      <h1>Welcome to Ken's Portfolio Site</h1>
+    </transition>
+    
     <!-- 題名ここまで -->
 
     <!-- 自己紹介 -->
@@ -90,6 +95,8 @@
             Web広告企業でWebエンジニア
             <i class="fab fa-laravel"></i>
             <i class="fab fa-vuejs"></i>
+            <br>
+            <span class="year">2020/04-</span>
           </div>
         </li>
         <li class="timeline-item">
@@ -97,6 +104,8 @@
           <div class="timeline-item__node"></div>
           <div class="timeline-item__wrapper">
             プログラミングスクールメンター(Rails)
+            <br>
+            <span class="year">2019/07-2020/03</span>
           </div>
         </li>
         <li class="timeline-item">
@@ -104,6 +113,8 @@
           <div class="timeline-item__node"></div>
           <div class="timeline-item__wrapper">
             Sunway University(Malaysia)留学
+            <br>
+            <span class="year">2018/05-2019/03</span>
           </div>
         </li>
         <li class="timeline-item">
@@ -111,6 +122,8 @@
           <div class="timeline-item__node"></div>
           <div class="timeline-item__wrapper">
             大阪市立大学 商学部 入学
+            <br>
+            <span class="year">2015/04</span>
           </div>
         </li>
       </ul>
@@ -187,15 +200,25 @@
     position: absolute;
     background-color: #e4e7ed;
     border-radius: 50%;
+    left: -1px;
   }
 
   .timeline-item__wrapper {
     position: relative;
     top: -3px;
+    text-align: left;
+    padding-left: 40px;
   }
 
    .timeline-item__wrapper i{
     display: inline-block;
     margin-left: 5px;
+  }
+
+  .year {
+    display: inline-block;
+    padding-top: 5px;
+    font-size: 12px;
+    color: #909399;
   }
 </style>

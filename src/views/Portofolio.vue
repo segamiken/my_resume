@@ -1,5 +1,6 @@
 <template>
   <div class="about">
-    <h1>This is a Portofolio page</h1>
+    <h1>Hi.</h1>
+    <h1>My Works</h1>
   </div>
 </template>
