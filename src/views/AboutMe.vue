@@ -4,7 +4,7 @@
     <!-- 題名 -->
     <h1>Hi.</h1>
     <h1>
-      <vue-typer text="Welcome to Ken's Portfolio Site" :repeat='0'></vue-typer>
+      <vue-typer text="Ken's Portfolio Site" :repeat='0'></vue-typer>
     </h1>
     <!-- 題名ここまで -->
 
@@ -217,5 +217,50 @@
     padding-top: 5px;
     font-size: 12px;
     color: #909399;
+  }
+
+  /* レスポンシブ対応 */
+  @media (max-width: 1350px) {
+    .iam {
+      width: 35%;
+      margin-left: 13%;
+      margin-right: 2%;
+    }
+
+     .career {
+      width: 35%;
+      margin-right: 13%;
+      margin-left: 2%;
+    }
+  }
+
+  @media (max-width: 990px) {
+    .iam {
+      width: 40%;
+      margin-left: 8%;
+      margin-right: 2%;
+    }
+
+     .career {
+      width: 40%;
+      margin-right: 8%;
+      margin-left: 2%;
+    }
+  }
+
+  @media (max-width: 800px) {
+    .iam {
+      width: 80%;
+      margin-left: 10%;
+      margin-bottom: 30px;
+      height: auto;
+    }
+
+     .career {
+      width: 80%;
+      margin-left: 10%;
+      margin-bottom: 30px;
+      height: auto;
+    }
   }
 </style>
