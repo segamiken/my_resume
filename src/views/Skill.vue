@@ -72,6 +72,7 @@
   @media (max-width: 500px) {
     .skill_content {
       width: 90%;
+      height: auto;
     }
   }
 </style>
