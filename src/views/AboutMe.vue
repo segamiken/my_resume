@@ -250,15 +250,15 @@
 
   @media (max-width: 800px) {
     .iam {
-      width: 80%;
-      margin-left: 10%;
+      width: 90%;
+      margin-left: 5%;
       margin-bottom: 30px;
       height: auto;
     }
 
      .career {
-      width: 80%;
-      margin-left: 10%;
+      width: 90%;
+      margin-left: 5%;
       margin-bottom: 30px;
       height: auto;
     }

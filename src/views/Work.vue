@@ -94,8 +94,8 @@
   /* レスポンシブ対応 */
   @media (max-width: 900px) {
     .work_content {
-      width: 70%;
-      margin-left: 15%;
+      width: 90%;
+      margin-left: 5%;
       margin-bottom: 30px;
       height: ;
     }
