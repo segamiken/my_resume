@@ -2,7 +2,6 @@
   <div class="skill">
 
     <!-- 題名 -->
-    <h1>Hi.</h1>
     <h1>
       <i class="fas fa-laptop-code"></i>
       <vue-typer text="My Skills are.." :repeat='0'></vue-typer>

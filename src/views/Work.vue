@@ -1,7 +1,6 @@
 <template>
   <div class="work">
     <!-- タイトル -->
-    <h1>Hi.</h1>
     <h1>
       <i class="fab fa-app-store"></i>
       <vue-typer text="My Works are.." :repeat='0'></vue-typer>

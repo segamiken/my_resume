@@ -2,7 +2,7 @@
   <div class="about">
 
     <!-- 題名 -->
-    <h1>Hi.</h1>
+    <h1>Welcom to</h1>
     <h1>
       <vue-typer text="Ken's Portfolio Site" :repeat='0'></vue-typer>
     </h1>
@@ -80,7 +80,7 @@
 
         <tr>
           <th></th>
-          <td>2020年3月卒業予定</td>
+          <td>2020年3月卒業</td>
         </tr>
       </table>
 
