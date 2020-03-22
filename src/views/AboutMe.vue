@@ -2,10 +2,11 @@
   <div class="about">
 
     <!-- 題名 -->
-    <h1>Welcom to</h1>
     <h1>
       <vue-typer text="Ken's Portfolio Site" :repeat='0'></vue-typer>
     </h1>
+    <img alt="Mypic" src="../assets/mypic.png" class="mypic_img">
+    <div></div>
     <!-- 題名ここまで -->
 
     <!-- 自己紹介 -->
@@ -145,6 +146,15 @@
     float: left;
   }
 
+  /* 自分の画像 スマホとタブレットでのみ表示する */
+  .mypic_img {
+    width: 200px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 50%;
+    display: none;
+  }
+
   .career {
     width: 25%;
     margin-right: 24%;
@@ -261,6 +271,10 @@
       margin-left: 5%;
       margin-bottom: 30px;
       height: auto;
+    }
+    
+    .mypic_img {
+      display: inline-block;
     }
   }
 </style>

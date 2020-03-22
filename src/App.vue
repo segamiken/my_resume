@@ -28,7 +28,7 @@
 
 #nav a {
   font-weight: bold;
-  color: blue;
+  color: black;
   text-decoration: none;
   display: inline-block;
   width: 30%;
