@@ -51,9 +51,11 @@
     margin: 0 auto;
     height: 500px;
 
-    background-color:#fff;
+    background-color:#111111;
+    color: white;
     box-shadow: 0 8px 7px #ddd;
     text-align: left;
+    border-radius: 3%;
   }
 
   .skill_content_text {

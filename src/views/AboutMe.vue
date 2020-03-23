@@ -141,9 +141,11 @@
     margin-right: 1%;
     height: 450px;
 
-    background-color:#fff;
+    background-color: #111111;
+    color: white;
     box-shadow: 0 8px 7px #ddd;
     float: left;
+    border-radius: 3%;
   }
 
   /* 自分の画像 スマホとタブレットでのみ表示する */
@@ -161,9 +163,11 @@
     margin-left: 1%;
     height: 450px;
 
-    background-color:#fff;
+    background-color:#111111;
+    color: white;
     box-shadow: 0 8px 7px #ddd;
     float: left;
+    border-radius: 3%;
   }
 
   .about_table {
@@ -180,6 +184,7 @@
   .about_table i{
     display: inline-block;
     margin-right: 20px;
+    font-size: x-large;
   }
 
   /* 職歴の系列のデザイン */

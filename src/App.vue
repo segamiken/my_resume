@@ -37,4 +37,15 @@
 #nav a.router-link-exact-active {
   color: #42b983;
 }
+
+a {
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  font-family: Amatic SC, cursive;
+}
+
+h1 {
+  font-family: Amatic SC, cursive;
+}
 </style>

@@ -76,9 +76,11 @@
     height: 450px;
     margin: 20px 2% 70px 2%;
 
-    background-color:#fff;
+    background-color:#111111;
+    color: white;
     box-shadow: 0 10px 8px #ddd;
     float: left;
+    border-radius: 3%;
   }
 
   .work_content_txt {
