@@ -42,10 +42,6 @@ a {
   font-weight: bold;
   color: white;
   text-decoration: none;
-  font-family: Amatic SC, cursive;
 }
 
-h1 {
-  font-family: Amatic SC, cursive;
-}
 </style>
