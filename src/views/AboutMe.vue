@@ -206,16 +206,17 @@
 
   .timeline-item__tail {
     position: absolute;
-    border-left: 2px solid #e4e7ed;
+    border-left: 2px solid black;
     height: 100%;
     left: 4px;
+    opacity: 0.5;
   }
 
   .timeline-item__node {
     width: 12px;
     height: 12px;
     position: absolute;
-    background-color: #e4e7ed;
+    background-color: black;
     border-radius: 50%;
     left: -1px;
   }
