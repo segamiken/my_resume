@@ -6,6 +6,11 @@ Vue.use(VueRouter)
 const routes = [
   {
     path: '/',
+    name: 'home',
+    component: () => import('../views/Home.vue')
+  },
+  {
+    path: '/aboutme',
     name: 'aboutMe',
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route

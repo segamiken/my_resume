@@ -2,9 +2,9 @@
   <div class="skill">
 
     <!-- 題名 -->
-    <h1>
+    <h1 class="skill_title">
       <i class="fas fa-laptop-code"></i>
-      <vue-typer text="My Skills are.." :repeat='0'></vue-typer>
+      My Skills are..
     </h1>
 
     <!-- 題名ここまで -->
@@ -51,11 +51,15 @@
     margin: 0 auto;
     height: 500px;
 
-    background-color:#111111;
-    color: white;
+    background-color:#e4e7ed;
+    color: black;
     box-shadow: 0 8px 7px #ddd;
     text-align: left;
     border-radius: 3%;
+  }
+
+  .skill_title {
+    margin-top: 30px;
   }
 
   .skill_content_text {

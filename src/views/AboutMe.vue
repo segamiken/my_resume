@@ -2,8 +2,9 @@
   <div class="about">
 
     <!-- 題名 -->
-    <h1>
-      <vue-typer text="Ken's Portfolio Site" :repeat='0'></vue-typer>
+    <h1 class="about_title">
+      <i class="fas fa-user-edit"></i>
+      Who am I?
     </h1>
     <img alt="Mypic" src="../assets/mypic.png" class="mypic_img">
     <div></div>
@@ -141,11 +142,15 @@
     margin-right: 1%;
     height: 450px;
 
-    background-color: #111111;
-    color: white;
+    background-color: #e4e7ed;
+    color: black;
     box-shadow: 0 8px 7px #ddd;
     float: left;
     border-radius: 3%;
+  }
+
+  .about_title {
+    margin-top: 30px;
   }
 
   /* 自分の画像 スマホとタブレットでのみ表示する */
@@ -163,8 +168,8 @@
     margin-left: 1%;
     height: 450px;
 
-    background-color:#111111;
-    color: white;
+    background-color:#e4e7ed;
+    color: black;
     box-shadow: 0 8px 7px #ddd;
     float: left;
     border-radius: 3%;

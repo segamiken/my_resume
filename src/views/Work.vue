@@ -1,9 +1,9 @@
 <template>
   <div class="work">
     <!-- タイトル -->
-    <h1>
+    <h1 class="work_title">
       <i class="fab fa-app-store"></i>
-      <vue-typer text="My Works are.." :repeat='0'></vue-typer>
+      My Works are..
     </h1>
     <!-- タイトルここまで -->
 
@@ -71,13 +71,17 @@
     padding-left: 5px;
   }
 
+  .work_title {
+    margin-top: 30px;
+  }
+
   .work_content {
     width: 46%;
     height: 450px;
     margin: 20px 2% 70px 2%;
 
-    background-color:#111111;
-    color: white;
+    background-color:#e4e7ed;
+    color: black;
     box-shadow: 0 10px 8px #ddd;
     float: left;
     border-radius: 3%;
