@@ -55,7 +55,7 @@
         <tr>
           <th>Blog</th>
           <td>
-            <a href="https://ken-japanmalaysia.com" target="_blank">とある大学5年生のブログ</a>
+            <a href="https://ken-japanmalaysia.com" target="_blank">とある社会人1年目 KENのブログ</a>
           </td>
         </tr>
 
@@ -77,12 +77,12 @@
       <table class="about_table">
         <tr>
           <th>Current Job</th>
-          <td>大学4年生</td>
+          <td>Webエンジニア。</td>
         </tr>
 
         <tr>
           <th></th>
-          <td>2020年3月卒業</td>
+          <td>2020/04-</td>
         </tr>
       </table>
 
@@ -96,6 +96,15 @@
             <i class="fab fa-vuejs"></i>
             <br>
             <span class="year">2020/04-</span>
+          </div>
+        </li>
+        <li class="timeline-item">
+          <div class="timeline-item__tail"></div>
+          <div class="timeline-item__node"></div>
+          <div class="timeline-item__wrapper">
+            大阪市立大学 商学部卒業
+            <br>
+            <span class="year">2020/03</span>
           </div>
         </li>
         <li class="timeline-item">
@@ -120,7 +129,7 @@
           <div class="timeline-item__tail__last"></div>
           <div class="timeline-item__node"></div>
           <div class="timeline-item__wrapper">
-            大阪市立大学 商学部 入学
+            大学入学
             <br>
             <span class="year">2015/04</span>
           </div>
@@ -137,10 +146,10 @@
   }
   
   .iam {
-    width: 25%;
-    margin-left: 24%;
-    margin-right: 1%;
-    height: 450px;
+    width: 30%;
+    margin-left: 18%;
+    margin-right: 2%;
+    height: 487.8px;
 
     background-color: #e4e7ed;
     color: black;
@@ -163,10 +172,10 @@
   }
 
   .career {
-    width: 25%;
-    margin-right: 24%;
-    margin-left: 1%;
-    height: 450px;
+    width: 30%;
+    margin-right: 18%;
+    margin-left: 2%;
+    height: auto;
 
     background-color:#e4e7ed;
     color: black;

@@ -49,7 +49,7 @@
   .skill_content {
     width: 50%;
     margin: 0 auto;
-    height: 500px;
+    height: auto;
 
     background-color:#e4e7ed;
     color: black;
@@ -70,14 +70,12 @@
   @media (max-width: 1100px) {
     .skill_content {
       width: 70%;
-      height: 530px;
     }
   }
 
   @media (max-width: 500px) {
     .skill_content {
       width: 90%;
-      height: auto;
     }
   }
 </style>
