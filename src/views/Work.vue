@@ -102,7 +102,7 @@
       width: 90%;
       margin-left: 5%;
       margin-bottom: 30px;
-      height: ;
+      height: auto;
     }
   }
 
