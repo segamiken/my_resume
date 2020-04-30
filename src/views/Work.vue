@@ -77,7 +77,7 @@
 
   .work_content {
     width: 46%;
-    height: 450px;
+    height: 500px;
     margin: 20px 2% 70px 2%;
 
     background-color:#e4e7ed;

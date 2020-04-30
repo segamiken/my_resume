@@ -10,6 +10,7 @@
     <div></div>
     <!-- 題名ここまで -->
 
+    <div class="wrap_iam_career">
     <!-- 自己紹介 -->
     <div class="iam">
       <p>
@@ -135,6 +136,7 @@
           </div>
         </li>
       </ul>
+    </div>
     </div>
     <!-- 職歴ここまで -->
   </div>

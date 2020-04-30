@@ -40,7 +40,6 @@
 
 a {
   font-weight: bold;
-  color: black;
   text-decoration: none;
 }
 
