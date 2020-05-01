@@ -25,12 +25,12 @@
         <h2>Cloud</h2>
         <h3>AWS</h3>
         <p>
-          VPC | EC2 | S3 | RDS | IAM
+          VPC | EC2 | ECR | ECS | S3 | RDS | IAM
         </p>
 
         <h2>Others</h2>
         <p>
-           GitHub | Docker | nginx | Apache
+           GitHub | Docker | nginx
         </p>
 
         <h2>Language</h2>

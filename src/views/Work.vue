@@ -55,6 +55,18 @@
       <p class="work_content_txt">基本的な機能が揃ったCDのECサイトです。3人のチームメンバーでGitHubを使用して開発をしました。</p>
       <img alt="Ecsite logo" src="../assets/ecsite.png" class="work_content_img">
     </div>
+
+    <div class="work_content">
+      <h2>
+        <i class="fab fa-line"></i>
+        <a href="https://github.com/segamiken/hotel_bot" target="_blank">
+          近くのホテル探しマン
+        </a>(LINE Bot, Node.jsを使用)
+      </h2>
+      <h3>概要</h3>
+      <p class="work_content_txt">位置情報を送ると、5km圏内のファッションホテルを5件返してくれるLINEbotです。LINE Messaging APIやYOLP(Yahoo!ローカルサーチAPI)を使用しています。</p>
+      <img alt="hotel logo" src="../assets/hotel.png" class="work_content_img">
+    </div>
     <!-- workここまで -->
   </div>
 </template>
