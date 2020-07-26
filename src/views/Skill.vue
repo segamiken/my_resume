@@ -14,7 +14,7 @@
       <div class="skill_content_text">
         <h2>Language&Framework</h2>
         <p>
-          Ruby(Ruby on Rails) | PHP(Laravel) | JS(jQuery, Vue.js) | HTML | CSS
+          PHP(Laravel) | Ruby(Ruby on Rails) | JavaScript(jQuery, Vue.js) | TypeScript(React, NestJS) | HTML | CSS
         </p>
 
         <h2>RDB</h2>
@@ -25,7 +25,7 @@
         <h2>Cloud</h2>
         <h3>AWS</h3>
         <p>
-          VPC | EC2 | ECR | ECS | S3 | RDS | IAM
+          VPC | EC2 | ECR | ECS | Fargate | S3 | RDS | IAM
         </p>
 
         <h2>Others</h2>
@@ -59,7 +59,7 @@
   }
 
   .skill_title {
-    margin-top: 30px;
+    margin: 40px 0;
   }
 
   .skill_content_text {

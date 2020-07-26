@@ -84,7 +84,7 @@
   }
 
   .work_title {
-    margin-top: 30px;
+    margin: 40px 0;
   }
 
   .work_content {

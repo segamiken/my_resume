@@ -4,7 +4,7 @@
     <!-- 題名 -->
     <h1 class="about_title">
       <i class="fas fa-user-edit"></i>
-      Who am I?
+      Who am I ?
     </h1>
     <img alt="Mypic" src="../assets/mypic.png" class="mypic_img">
     <div></div>
@@ -61,6 +61,13 @@
         </tr>
 
         <tr>
+          <th>Resume</th>
+          <td>
+            <a href="https://github.com/segamiken/Resume" target="_blank">職務経歴書</a>
+          </td>
+        </tr>
+
+        <tr>
           <th>Contact</th>
           <td>TwitterのDMでお願い致します。</td>
         </tr>
@@ -78,12 +85,7 @@
       <table class="about_table">
         <tr>
           <th>Current Job</th>
-          <td>Webエンジニア。</td>
-        </tr>
-
-        <tr>
-          <th></th>
-          <td>2020/04-</td>
+          <td>Webエンジニア</td>
         </tr>
       </table>
 
@@ -94,7 +96,7 @@
           <div class="timeline-item__wrapper">
             Web広告企業でWebエンジニア
             <i class="fab fa-laravel"></i>
-            <i class="fab fa-vuejs"></i>
+            <i class="fab fa-react"></i>
             <br>
             <span class="year">2020/04-</span>
           </div>
@@ -151,7 +153,7 @@
     width: 30%;
     margin-left: 18%;
     margin-right: 2%;
-    height: 487.8px;
+    height: auto;
 
     background-color: #e4e7ed;
     color: black;
@@ -161,7 +163,7 @@
   }
 
   .about_title {
-    margin-top: 30px;
+    margin: 40px 0;
   }
 
   /* 自分の画像 スマホとタブレットでのみ表示する */
@@ -177,7 +179,7 @@
     width: 30%;
     margin-right: 18%;
     margin-left: 2%;
-    height: auto;
+    height: 468px;
 
     background-color:#e4e7ed;
     color: black;
